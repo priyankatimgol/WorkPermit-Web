@@ -1,0 +1,35 @@
+.current-marker {
+  position: absolute;
+}
+.current-marker::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 20px;
+  transform: translateX(-50%);
+  width: max-content;
+  height: fit-content;
+  display: inline-flex;
+  background-color: rgba(18, 116, 172, 0.9);
+  color: #fff;
+  padding: 0px 2px;
+  font-size: 14px;
+}
+
+.current-marker img {
+  height: 20px;
+  width: 12px;
+}
+.position-relative .position-absolute {
+  color: #fff;
+  background: #222;
+  border: 1px solid transparent;
+  border-radius: undefinedpx;
+  top: -16px;
+  right: 0;
+  /* background: rgb(87 86 86); */
+  padding: 5px 8px;
+  border-radius: 5px;
+  /* color: white; */
+  min-width: 783px;
+  z-index: 9;
+}

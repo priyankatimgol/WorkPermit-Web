@@ -1,0 +1,32 @@
+.button-group {
+  display: flex !important;
+  justify-content: end !important;
+  gap: 5px !important;
+}
+.card {
+  border: none !important;
+}
+.k-step-list-horizontal ~ .k-progressbar {
+  overflow: hidden !important;
+}
+.dynamic-print-border {
+  border: 1px solid #000;
+  border-top: none;
+}
+.datepicker-print table.table.datagrid-table.table-bordered tbody tr td:nth-of-type(1) {
+  width: 200px;
+}
+.datepicker-print
+  table.table.datagrid-table.table-bordered
+  tbody
+  tr
+  td:nth-of-type(1)
+  .input-group-append {
+  display: none;
+}
+.datepicker-print .formio-component .form-check.checkbox {
+  margin-top: 10px;
+}
+.datepicker-print .formio-component .input-group-append {
+  display: none;
+}
